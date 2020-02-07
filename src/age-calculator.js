@@ -5,4 +5,8 @@ export class User {
   getMercuryAge (){
     return Math.round((this.age / 0.24));
   }
+  getVenusAge(){
+   
+  }
+
 }
