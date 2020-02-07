@@ -26,10 +26,14 @@ _Download directly from GitHub_
 |User inputs their age and program returns their age in Venus years|35 |56 |
 |User inputs their age and program returns their age in Mars years |35 | 19|
 | User inputs their age and program returns their age in Jupiter years|35 |3 |
-|Program takes user inputted years and returns remaining lifespan on Mercury | 35 | ?? |
-Program takes user inputted years and returns remianing lifespan on Venus | 35 | ?? |
-| Program takes user inputted years and returns remianing lifespan on Mars | 35 | ?? |
-| Program takes user inputted years and returns remianing lifespan on Jupiter | 35 |?? |
+|User inputs expected lifespan for user's demographic and Program returns remaining lifespan on Mercury | 90 | 229 |
+User inputs expected lifespan for user's demographic and Program returns remaining lifespan on  Venus | 35 | 89 |
+| User inputs expected lifespan for user's demographic and Program returns remaining lifespan on Mars | 35 | 29 |
+| User inputs expected lifespan for user's demographic and Program returns remaining lifespan on Jupiter | 35 |0 |
+|If user has exceeded the life expectancy on Mercury, return the number of years by which they exceeded it | | |
+|If user has exceeded the life expectancy on Venus, return the number of years by which they exceeded it | | |
+|If user has exceeded the life expectancy on Mars, return the number of years by which they exceeded it | | |
+|If user has exceeded the life expectancy on Jupiter, return the number of years by which they exceeded it | | |
 
 
 ## Known Bugs
