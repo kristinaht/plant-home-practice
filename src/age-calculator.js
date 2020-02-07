@@ -16,4 +16,7 @@ export class User {
   getJupiterAge() {
     return Math.round(this.age / 11.86);
   }
+  getMercuryLifeExpectancy(age, lifeExpectancy) {
+
+  }
 }
