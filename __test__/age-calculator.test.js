@@ -26,5 +26,9 @@ describe ("User", () => {
   let newUser = new User(35, 90);
       expect(newUser.getMercuryLifeExpectancy()).toEqual(229);
   });
+  test("should correctly calculate life expectancy on Venus", () => {
+    let newUser = new User(35, 90);
+        expect(newUser.getVenusLifeExpectancy()).toEqual(89);
+    });
    
 });
