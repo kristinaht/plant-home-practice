@@ -9,6 +9,6 @@ export class User {
     return Math.round(this.age / 0.62);
   }
   getMarsAge() {
- 
+    return Math.round(this.age / 1.88);
   }
 }
