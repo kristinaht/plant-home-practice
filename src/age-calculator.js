@@ -1,7 +1,7 @@
 export class User {
   constructor(age, lifeExpectancy) {
     this.age = age;
-    // this.lifeExpectancy = lifeExpectancy;
+    this.lifeExpectancy = lifeExpectancy;
   }
 
   getMercuryAge () {

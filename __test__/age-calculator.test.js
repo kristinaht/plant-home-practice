@@ -1,7 +1,7 @@
 import { User } from "./../src/age-calculator";
 
 describe ("User", () => {
-  test("should correctly create an user object with age paramether", () => {
+  test("should correctly create an user object with age and life expectancy paramether", () => {
     let user = new User(35, 90);
     expect(user.age).toEqual(35);
     expect(user.lifeExpectancy).toEqual(90);
