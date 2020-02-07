@@ -21,7 +21,7 @@ _Download directly from GitHub_
 
 | Behavior   |      Input      |  Output |
 |------------|:---------------:|--------:|
-|User inputs their age and program returns the inputted age |35 |35 |
+|User inputs their age and life expectancy and program returns the inputted age and life expectancy |User inputs their age: 35; User inputs average life expectancy for their demographic group: 90 |35, 90 |
 |User inputs their age and program returns their age in Mercury years|35 |146 |
 |User inputs their age and program returns their age in Venus years|35 |56 |
 |User inputs their age and program returns their age in Mars years |35 | 19|
