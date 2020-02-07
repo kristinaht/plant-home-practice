@@ -7,6 +7,6 @@ describe ("User", () => {
   }); 
   test("should correctly calculate user age in Mercury years", () => {
     let newUser = new User(35);
-    expect(newUser.getMercuryAge()).toEqual(145.83);
+    expect(newUser.getMercuryAge()).toEqual(146);
   });
 });
