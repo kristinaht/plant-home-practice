@@ -12,6 +12,6 @@ export class User {
     return Math.round(this.age / 1.88);
   }
   getJupiterAge() {
-    return Math.roung(this.age / 11.86);
+    return Math.round(this.age / 11.86);
   }
 }
