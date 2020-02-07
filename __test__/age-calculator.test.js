@@ -12,5 +12,9 @@ describe ("User", () => {
   test("should correctly calculate user's age in Venus years", () =>{
     let newUser = new User(35);
     expect(newUser.getVenusAge()).toEqual(56);
+  });
+  test("should correctly calculate user age in Mars years", () => {
+    let newUser = new User(35);
+    expect(newUser.getMarsAge()).toEqual(19);
   })
 });
