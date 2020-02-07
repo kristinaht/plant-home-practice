@@ -20,5 +20,5 @@ describe ("User", () => {
   test("should correctly calculate age in Jupiter years", () => {
     let newUser = new User(35);
     expect(newUser.getJupiterAge()).toEqual(3);
-  })
+  });
 });
