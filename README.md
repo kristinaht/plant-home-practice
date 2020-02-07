@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Super Galactic Age Calculator_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{Brief description of application}, 2-7-2020_
 
-#### By _**{List of contributors}**_
+#### By _**Kristina Hengster Tintor**_
 
 ## Description
 
@@ -10,37 +10,47 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_Download directly from GitHub_
+* _From GitHub, click Clone or Download button._
+* _Next, click the Download Zip button._
+* _Save folder on your desktop_
+* _Double click the folder to open it._
+* _Double click index.html to open it in your preferred browser._
 
 ## Project Specifications
 
 | Behavior   |      Input      |  Output |
 |------------|:---------------:|--------:|
-| | | |
-| | | |
-| | | |
-| | | |
+|User inputs their age and program returns the inputted age |35 |35 |
+|User inputs their age and program returns their age in Mercury years|35 |146 |
+|User inputs their age and program returns their age in Venus years|35 |56 |
+|User inputs their age and program returns their age in Mars years |35 | 19|
+| User inputs their age and program returns their age in Jupiter years|35 |3 |
+|Program takes user inputted years and returns remaining lifespan on Mercury | 35 | ?? |
+Program takes user inputted years and returns remianing lifespan on Venus | 35 | ?? |
+| Program takes user inputted years and returns remianing lifespan on Mars | 35 | ?? |
+| Program takes user inputted years and returns remianing lifespan on Jupiter | 35 |?? |
+
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known issues._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Email hengster.tintor@gmail.com if you run into issues with this code, or if you have any suggestions._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This software is licensed under the MIT license.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Kristina Hengster Tintor_**
+
