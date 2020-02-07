@@ -36,6 +36,6 @@ describe ("User", () => {
       });
       test("should correctly calculate life expectancy on Jupiter", () => {
         let newUser = new User(35, 90);
-            expect(newUser.getJupiterLifeExpectancy()).toEqual(0);
+            expect(newUser.getJupiterLifeExpectancy()).toEqual(5);
         });
 });
