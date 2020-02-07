@@ -3,6 +3,6 @@ export class User {
     this.age = age;
   }
   getMercuryAge (){
-  
+    return this.age / 0.24;
   }
 }
