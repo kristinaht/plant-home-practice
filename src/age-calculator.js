@@ -22,4 +22,7 @@ export class User {
   getVenusLifeExpectancy(age, lifeExpectancy) {
     return Math.round((this.lifeExpectancy - this.age) / 0.62);
   }
+  getMarsLifeExpectancy(age, lifeExpectancy) {
+    
+  }
 }
