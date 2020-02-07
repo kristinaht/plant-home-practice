@@ -1,12 +1,14 @@
 export class User {
-  constructor(age){
+  constructor(age) {
     this.age = age;
   }
-  getMercuryAge (){
+  getMercuryAge () {
     return Math.round(this.age / 0.24);
   }
-  getVenusAge(){
+  getVenusAge() {
     return Math.round(this.age / 0.62);
   }
-
+  getMarsAge() {
+ 
+  }
 }
