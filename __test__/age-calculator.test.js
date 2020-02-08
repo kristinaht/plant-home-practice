@@ -38,4 +38,5 @@ describe ("User", () => {
         let newUser = new User(35, 90);
             expect(newUser.getJupiterLifeExpectancy()).toEqual(5);
         });
+      test("should correctly calculate how many years passed the inputted life expectancy the user has lived in Mercury years" )
 });
