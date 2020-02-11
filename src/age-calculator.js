@@ -36,7 +36,7 @@ export class User {
     if(exceeded < 0) {
       return Math.abs(exceeded);
     }else{
-    return exceeded;
+      return exceeded;
     }
   }
   getJupiterLifeExpectancy() {
