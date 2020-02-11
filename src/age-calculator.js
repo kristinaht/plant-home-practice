@@ -32,9 +32,12 @@ export class User {
     }
   }
   getMarsLifeExpectancy() {
-    // return Math.round((this.lifeExpectancy - this.age) /1.88);
     let exceeded = Math.round((this.lifeExpectancy - this.age) /1.88);
+    if(exceeded < 0) {
+      return Math.abs(exceeded);
+    }else{
     return exceeded;
+    }
   }
   getJupiterLifeExpectancy() {
     return Math.round((this.lifeExpectancy - this.age) /11.86);
