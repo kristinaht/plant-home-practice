@@ -23,20 +23,23 @@ describe ("User", () => {
     expect(newUser.getJupiterAge()).toEqual(3);
   });
   test("should correctly calculate life expectancy on Mercury", () => {
-  let newUser = new User(35, 90);
-      expect(newUser.getMercuryLifeExpectancy()).toEqual(229);
+    let newUser = new User(35, 90);
+    expect(newUser.getMercuryLifeExpectancy()).toEqual(229);
   });
   test("should correctly calculate life expectancy on Venus", () => {
     let newUser = new User(35, 90);
-        expect(newUser.getVenusLifeExpectancy()).toEqual(89);
-    });
-    test("should correctly calculate life expectancy on Mars", () => {
-      let newUser = new User(35, 90);
-          expect(newUser.getMarsLifeExpectancy()).toEqual(29);
-      });
-      test("should correctly calculate life expectancy on Jupiter", () => {
-        let newUser = new User(35, 90);
-            expect(newUser.getJupiterLifeExpectancy()).toEqual(5);
-        });
-      test("should correctly calculate how many years passed the inputted life expectancy the user has lived in Mercury years" )
+    expect(newUser.getVenusLifeExpectancy()).toEqual(89);
+  });
+  test("should correctly calculate life expectancy on Mars", () => {
+    let newUser = new User(35, 90);
+    expect(newUser.getMarsLifeExpectancy()).toEqual(29);
+  });
+  test("should correctly calculate life expectancy on Jupiter", () => {
+    let newUser = new User(35, 90);
+    expect(newUser.getJupiterLifeExpectancy()).toEqual(5);
+  });
+  test("should correctly calculate how many years passed the inputted life expectancy the user has lived in Mercury years", () => {
+    let newUser = new User(100, 90);
+    expect(getMercuryLifeExpectancy()).toEqual(90, "You lived 42 longer than expected.");
+  } );
 });

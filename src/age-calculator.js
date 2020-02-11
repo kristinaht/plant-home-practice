@@ -16,16 +16,20 @@ export class User {
   getJupiterAge() {
     return Math.round(this.age / 11.86);
   }
-  getMercuryLifeExpectancy(age, lifeExpectancy) {
+  getMercuryLifeExpectancy() {
     return Math.round((this.lifeExpectancy - this.age) / 0.24);
+    if(this.lifeExpectancy < this.age){
+      // let exceeded = (Math.round(this.age/0.24)) - this.age;
+      // return "You lived " + exceeded + " longer than expected.";
+    }
   }
-  getVenusLifeExpectancy(age, lifeExpectancy) {
+  getVenusLifeExpectancy() {
     return Math.round((this.lifeExpectancy - this.age) / 0.62);
   }
-  getMarsLifeExpectancy(age, lifeExpectancy) {
+  getMarsLifeExpectancy() {
     return Math.round((this.lifeExpectancy - this.age) /1.88);
   }
-  getJupiterLifeExpectancy(age, lifeExpectancy) {
+  getJupiterLifeExpectancy() {
     return Math.round((this.lifeExpectancy - this.age) /11.86);
   }
 }
