@@ -41,5 +41,9 @@ describe ("User", () => {
   test("should correctly calculate how many years passed the inputted life expectancy the user has lived in Mercury years", () => {
     let newUser = new User(100, 90);
     expect(newUser.getMercuryLifeExpectancy()).toEqual(42);
-  } );
+  });
+  test("should correctly calculate how many years passed the inputted life expectancy the user has lived in Venus years", () => {
+    let newUser = new User(100, 90);
+    expect(newUser.getVenusLifeExpectancy()).toEqual(16);
+  })
 });
