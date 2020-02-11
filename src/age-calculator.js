@@ -17,10 +17,10 @@ export class User {
     return Math.round(this.age / 11.86);
   }
   getMercuryLifeExpectancy() {
-    return Math.round((this.lifeExpectancy - this.age) / 0.24);
     if(this.lifeExpectancy < this.age){
-      // let exceeded = (Math.round(this.age/0.24)) - this.age;
-      // return "You lived " + exceeded + " longer than expected.";
+      let exceeded = Math.round((this.age - this.lifeExpectancy)/0.24);
+      return exceeded;
+    }else{return Math.round((this.lifeExpectancy - this.age) / 0.24);
     }
   }
   getVenusLifeExpectancy() {

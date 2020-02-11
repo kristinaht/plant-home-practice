@@ -40,6 +40,6 @@ describe ("User", () => {
   });
   test("should correctly calculate how many years passed the inputted life expectancy the user has lived in Mercury years", () => {
     let newUser = new User(100, 90);
-    expect(getMercuryLifeExpectancy()).toEqual(90, "You lived 42 longer than expected.");
+    expect(newUser.getMercuryLifeExpectancy()).toEqual(42);
   } );
 });
