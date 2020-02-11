@@ -45,5 +45,9 @@ describe ("User", () => {
   test("should correctly calculate how many years passed the inputted life expectancy the user has lived in Venus years", () => {
     let newUser = new User(100, 90);
     expect(newUser.getVenusLifeExpectancy()).toEqual(16);
-  })
+  });
+  test("should correctly calculate how many years passed inputted life expectancy user has lived in Mars years", () => {
+    let newUser = new User(100, 90);
+    expect(newUser.getMarsAge()).toEqual(5);
+  });
 });
