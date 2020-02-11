@@ -1,12 +1,12 @@
 # _Super Galactic Age Calculator_
 
-#### _{Brief description of application}, 2-7-2020_
+#### _Application that determines user’s age based on planet’s solar years., 2-7-2020_
 
 #### By _**Kristina Hengster Tintor**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Super Galactic Age Calculator takes user's age and expected life expectancy and returns user's age in different planet solar years._
 
 ## Setup/Installation Requirements
 
@@ -15,7 +15,8 @@ _Download directly from GitHub_
 * _Next, click the Download Zip button._
 * _Save folder on your desktop_
 * _Double click the folder to open it._
-* _Double click index.html to open it in your preferred browser._
+* _Install all dependencies by typing the following in your Terminal: npm install._
+* _Type the following in your Terminal: npm run start. The webpage will open in your preferred web browser._
 
 ## Project Specifications
 
@@ -51,6 +52,10 @@ _Email hengster.tintor@gmail.com if you run into issues with this code, or if yo
 * _Bootstrap_
 * _JavaScript_
 * _jQuery_
+* _Webpack_
+* _ESLint_
+* _Babel_
+* _Jest_
 
 ### License
 
