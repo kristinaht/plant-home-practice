@@ -1,12 +1,12 @@
-# _Super Galactic Age Calculator_
+# _Plant Grower Practice_
 
-#### _Application that determines user’s age based on planet’s solar years., 2-7-2020_
+#### _Practice building a functional application , 4-13-2020_
 
 #### By _**Kristina Hengster Tintor**_
 
 ## Description
 
-_Super Galactic Age Calculator takes user's age and expected life expectancy and returns user's age in different planet solar years._
+_ _
 
 ## Setup/Installation Requirements
 
@@ -22,13 +22,7 @@ _Download directly from GitHub_
 
 | Specification | Example Input | Example Output |
 | ------------- |:-------------:| -------------------:|
-|Program accepts only integers | "abc" | "Not a number" |
-| Program accepts numbers with 0-2 decimal places | 4.99 | 4.99 |
-| Program determines the total number of quarters that make up a given amount | 4.99 | 19 | 
-| Program determines the total number of dimes that make up the remaining amount of an input after quarters are subtracted | 4.99 | 2 | 
-| Program determines the total number of nickels that make up a given amount of an input after quarters and dimes are subtracted | 4.99 | 0 | 
-| Program determines the total number of pennies that make up a given amount of an input after quarters, dimes, and nickels are subtracted | 4.99 | 0 | 
-| Program returns an array of quarters, dimes, nickels, and pennies | 4.99 | [19, 2, 0, 4] |
+
 
 
 ## Known Bugs
