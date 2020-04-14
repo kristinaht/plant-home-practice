@@ -1,16 +1,13 @@
-import { Counter } from "../src/counter";
+import {  } from "../src/plant";
 
-describe ("Counter", () => {
+describe ("", () => {
 
-  test("should correctly create an Counter object with age and life expectancy paramether", () => {
-    var counter = Counter("abc");
-    expect(counter).toEqual("Not a number");
+  test("should ..... ", () => {
+    // var counter = Counter("abc");
+    // expect(counter).toEqual("Not a number");
   }); 
 
-  test("should accept only numbers with 0-2 decimal spaces", () => {
-    var counter = Counter("4.234");
-    expect(counter).toEqual("Invalid input");
-  });
+  
   
 })
 
